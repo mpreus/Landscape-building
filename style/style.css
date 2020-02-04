@@ -1,0 +1,47 @@
+/* basic reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #edeff0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background: #fff;
+}
+
+header a {
+	color: #000;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+header #logo {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+}
+
+header nav li {
+	display: inline-block;
+}
+
+header nav a {
+	transition-duration: .7s;
+}
+
+header nav a:hover {
+	background-color: #ddd;
+}
+
+
+
+
+
+
+
+
