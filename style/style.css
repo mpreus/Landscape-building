@@ -1,5 +1,6 @@
 /* basic reset */
 * {
+	border: none;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -239,6 +240,62 @@ header nav li:hover {
 	padding: 10px 0;
 }
 
+/* footer */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+footer .services {
+	margin-bottom: 20px;
+}
+
+footer .services ul {
+	list-style-type: none;
+
+}
+
+footer .services li {
+	padding: 5px 0;
+}
+
+footer .services h5 {
+	font-size: 1.2em;
+	padding: 15px 0;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer .contact-info p {
+	padding: 10px 0;
+}
+
+footer .contact-form {
+	padding: 20px 0;
+}
+
+footer .contact-form input {
+	margin: 10px 0;
+	padding: 15px;
+	width: 100%;
+}
+
+footer .contact-form button {
+	background-color: #55c18f;
+	color: #fff;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 15px;
+	text-decoration: none;
+	transition-duration: .3s;
+}
+
+footer .contact-form button:hover {
+	box-shadow: 2px 2px 12px #ccc;
+}
 
 
 
