@@ -207,7 +207,37 @@ header nav li:hover {
 }
 
 /* testimonial section */
+#testimonials {
+	background-color: #fff;
+	padding-bottom: 50px;
+	text-align: center;
+}
 
+#testimonials h2 {
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+#testimonials h3 {
+	font-size: 1.4em
+	padding: 10px 15px;
+}
+
+.testimonial {
+	margin: 20px;
+	padding: 10px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+	height: 150px;
+	margin: 20px auto;
+	width: 150px;
+}
+
+.testimonial p {
+	padding: 10px 0;
+}
 
 
 
