@@ -9,6 +9,7 @@
 body {
 	background: #edeff0;
 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }
 
 /* header */
@@ -30,7 +31,6 @@ header #logo {
 
 header nav li {
 	text-align: center;
-	border: 1px solid #ddd;
 	display: inline-block;
 	transition-duration: .7s;
 	width: 120px;
@@ -93,7 +93,9 @@ header nav li:hover {
 }
 
 #welcome p {
+	line-height: 24px;
 	padding: 10px;
+	text-align: center;
 }
 
 .services-container {
@@ -257,7 +259,7 @@ footer .services ul {
 }
 
 footer .services li {
-	padding: 5px 0;
+	padding: 5px;
 }
 
 footer .services h5 {
@@ -295,6 +297,27 @@ footer .contact-form button {
 
 footer .contact-form button:hover {
 	box-shadow: 2px 2px 12px #ccc;
+}
+
+/* header for tablets */
+@media screen and (min-width: 750px) {
+	header #logo {
+		display: inline-block;
+		padding: 12px;
+		width: 30%;
+	}
+	header nav {
+		display: inline-block;
+		width: 60%;
+	}
+
+	#intro {
+		height: 500px;
+	}
+	.intro-text {
+		top: 180px;
+	}
+
 }
 
 
