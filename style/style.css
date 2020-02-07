@@ -103,9 +103,10 @@ header nav li:hover {
 	margin: 50px auto;
 }
 
-.services {
+.services,
+.contact-info {
 	margin: 20px 10px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .service-title {
@@ -197,7 +198,7 @@ header nav li:hover {
 }
 
 .article-text {
-	padding: 0 15px 10px;
+	padding: 10px;
 }
 
 .article-button {
@@ -299,8 +300,9 @@ footer .contact-form button:hover {
 	box-shadow: 2px 2px 12px #ccc;
 }
 
-/* header for tablets */
+/* style for tablets */
 @media screen and (min-width: 750px) {
+	
 	header #logo {
 		display: inline-block;
 		padding: 12px;
@@ -317,6 +319,48 @@ footer .contact-form button:hover {
 	.intro-text {
 		top: 180px;
 	}
+
+	.services-container {
+		max-width: 500px;
+	}
+
+	.works-container {
+		margin-left: 10px;
+		margin-right: auto;
+	}
+	.works-container .work {
+		display: inline-block;
+		margin: 20px 10px;
+		width: 45%;
+	}
+
+	#blog .article, .testimonial {
+		float: left;
+		width: 44%;
+	}
+
+	#blog .articles-container:after,
+	#testimonials .testimonials-container:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	footer .services,
+	footer .contact-info {
+		display: inline-block;
+		width: 46%;
+	}
+
+	footer .contact-form input {
+		width: 70%;
+	}
+
+	footer .contact-form button {
+		margin-left: 20px;
+	} 
+
+
 
 }
 
