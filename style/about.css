@@ -1,9 +1,11 @@
+/* basic reset */
 * {
 	border: none;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background: #edeff0;
 	font-family: 'Roboto', sans-serif;
@@ -41,6 +43,62 @@ header nav li:hover {
 header .active {
 	background-color: #ddd;
 }
+
+/* showcase section */
+#showcase {
+	background-image: url("../img/garden.jpg");
+	background-size: cover;
+	height: 240px;
+	position: relative;
+}
+
+#showcase .text {
+	background-color: rgba(50, 50, 50, .6);
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+#showcase .text h2 {
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* few-words-about-us section */
+#few-words-about-us .words-container {
+	max-width: 500px;
+	margin: auto;
+}
+
+.words-container h3,
+.words-container p {
+	padding: 10px;
+}
+
+.word {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.call-to-action {
+	text-align: center;
+}
+
+.call-to-action a {
+	background-color: #55c18f;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0 50px;
+	padding: 15px 20px;
+	text-decoration: none;
+	transition-duration: .3s;
+}
+
+.call-to-action a:hover {
+	box-shadow: 2px 2px 12px #222;
+}
+
 
 
 
@@ -118,7 +176,7 @@ footer .contact-form button:hover {
 	}
 
 	
-	
+
 	footer .services,
 	footer .contact-info {
 		display: inline-block;
