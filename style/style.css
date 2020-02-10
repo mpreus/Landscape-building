@@ -40,6 +40,10 @@ header nav li:hover {
 	background-color: #ddd;
 }
 
+header .active {
+	background-color: #ddd;
+}
+
 /* intro section */
 #intro {
 	background-attachment: fixed;
