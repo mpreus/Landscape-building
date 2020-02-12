@@ -99,9 +99,63 @@ header .active {
 	box-shadow: 2px 2px 12px #222;
 }
 
+/* company history section */
+#history {
+	background-color: #fff;
+	text-align: center;
+}
 
+#history h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	padding: 20px;
+}
 
+.event {
+	margin: 10px;
+}
 
+.event p {
+	padding: 6px;
+}
+
+.event-date {
+	color: #55c18f;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.event-title {
+	color: #55c18f;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/* our team section */
+#our-team {
+	text-align: center;
+}
+
+#our-team h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.member {
+	background-color: #fff;
+	box-shadow: 0 0 15px #ccc;
+	margin: 10px;
+	padding: 5px;
+	padding-bottom: 50px;
+}
+
+.member img {
+	border-radius: 50%;
+	height: 150px;
+	margin: 10px;
+	width: 150px;
+}
 
 
 /* footer */
