@@ -109,6 +109,7 @@ header .active {
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
 	padding: 20px;
+	text-transform: uppercase;
 }
 
 .event {
@@ -133,6 +134,7 @@ header .active {
 
 /* our team section */
 #our-team {
+	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -140,12 +142,13 @@ header .active {
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
 	padding: 20px;
+	text-transform: uppercase;
 }
 
 .member {
 	background-color: #fff;
 	box-shadow: 0 0 15px #ccc;
-	margin: 10px;
+	margin: 15px;
 	padding: 5px;
 	padding-bottom: 50px;
 }
@@ -160,7 +163,6 @@ header .active {
 /* FAQ section */
 #faq {
 	background-color: #fff;
-	
 }
 
 #faq h2 {
@@ -168,6 +170,7 @@ header .active {
 	margin-bottom: 30px;
 	padding: 20px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .faq {
@@ -190,7 +193,6 @@ header .active {
 	padding-right: 6px;
 }
 
-
 /* footer */
 footer {
 	background-color: #000;
@@ -204,7 +206,6 @@ footer .services {
 
 footer .services ul {
 	list-style-type: none;
-
 }
 
 footer .services li {
@@ -262,14 +263,35 @@ footer .contact-form button:hover {
 		width: 60%;
 	}
 
-	
+	.events-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.event {
+		width: 46%;
+	}
+	.member,
+	.faq {
+		float: left;
+		margin: 2%;
+		width: 46%;
+	}
+	.members-container:after,
+	.faq-container:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
 
+	.call-to-action {
+		clear: both;
+	}
 	footer .services,
 	footer .contact-info {
 		display: inline-block;
 		width: 46%;
 	}
-
 	footer .contact-form input {
 		width: 70%;
 	}
