@@ -1,0 +1,157 @@
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #edeff0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+header a {
+	color: #000;
+	display: inline-block
+	margin-top: 20px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+header #logo {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+}
+
+header nav {
+	display: inline-block;
+	right: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	position: absolute;
+	width: 500px;
+}
+
+header nav li {
+	text-align: center;
+	color: #333;
+	display: inline-block;
+	width: 120px;
+	padding-top: 0;
+	padding-bottom: 7px;
+	transition-duration: .7s;
+	
+}
+header nav li:hover {
+	background-color: #ddd;
+}
+
+header .active {
+	background-color: #ddd;
+}
+
+.intro-text h2 {
+	font-size: 40px;
+	letter-spacing: 1.2px;
+	word-spacing: 1.2px;
+}
+
+#welcome p {
+	line-height: 32px;
+	font-size: 22px;
+	margin: 20px 80px;
+	padding: 10px;
+	text-align: center;
+}
+
+.services-container {
+	width: 900px;
+}
+
+#welcome .services-container p {
+	font-size: 20px;
+	margin: 10px 40px;
+}
+.works-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.work {
+	margin: 20px 5px;
+	width: 484px;
+}
+
+#blog {
+	margin-top: 60px;
+}
+
+.articles-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.article {
+	width: 500px;
+}
+
+#testimonials h2 {
+	padding-top: 60px;
+	text-transform: uppercase;
+}
+
+.testimonials-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.testimonial {
+	margin: auto;
+	width: 500px;
+}
+
+.testimonial p {
+	margin: 10px;
+}
+
+footer .services,
+footer .contact-info {
+	display: inline-block;
+	margin-left: 140px;
+	width: 33%;
+}
+
+footer .contact-form input {
+	margin-left: 140px;
+	width: 33%;
+}
+
+footer .contact-form button {
+	margin-left: 20px;
+}
+
+footer .copyright {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

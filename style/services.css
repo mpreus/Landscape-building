@@ -1,3 +1,13 @@
+/* basic reset */
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #333;
+	background: #edeff0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 }

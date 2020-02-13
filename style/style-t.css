@@ -1,0 +1,97 @@
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #edeff0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+header #logo {
+	display: inline-block;
+	padding: 12px;
+	width: 30%;
+}
+
+header nav {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+}
+
+header nav ul {
+	position: absolute;
+	right: 20px;
+	top: -80px;
+}
+
+#intro {
+	height: 500px;
+}
+
+.intro-text {
+	top: 180px;
+}
+
+.services-container {
+	width: 700px;
+}
+
+#blog .article, 
+.testimonial {
+	float: left;
+	width: 43%;
+}
+
+.testimonial {
+	margin: 20px;
+	padding: 10px;
+}
+
+
+.articles-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+.article {
+	width: 400px;
+}
+
+#blog .articles-container:after,
+#testimonials .testimonials-container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer .services,
+footer .contact-info {
+	display: inline-block;
+	margin-left: 40px;
+	width: 33%;
+}
+
+footer .contact-form input {
+	width: 50%;
+}
+
+footer .contact-form button {
+	margin-left: 20px;
+}
+
+footer .copyright {
+	text-align: center;
+}
+
+
+
+
+
