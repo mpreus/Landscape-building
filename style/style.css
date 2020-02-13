@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background: #edeff0;
 	font-family: 'Roboto', sans-serif;
@@ -150,13 +151,16 @@ header .active {
 #blog {
 	text-align: center;
 }
+
 #blog h2 {
 	padding: 15px;
 	text-transform: uppercase;
 }
+
 #blog .call-to-action {
 	margin: 10px 0 20px;
 }
+
 #blog .call-to-action a,
 .article-button a {
 	background-color: #55c18f;
@@ -301,13 +305,4 @@ footer .contact-form button:hover {
 footer .copyright {
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
 

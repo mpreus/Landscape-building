@@ -44,6 +44,7 @@ header nav li {
 	transition-duration: .7s;
 	
 }
+
 header nav li:hover {
 	background-color: #ddd;
 }
@@ -74,6 +75,7 @@ header .active {
 	font-size: 20px;
 	margin: 10px 40px;
 }
+
 .works-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -144,14 +146,3 @@ footer .contact-form button {
 footer .copyright {
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
