@@ -42,7 +42,6 @@ header nav li {
 	padding-top: 0;
 	padding-bottom: 7px;
 	transition-duration: .7s;
-	
 }
 
 header nav li:hover {
@@ -53,7 +52,7 @@ header .active {
 	background-color: #ddd;
 }
 
-.intro-text h2 {
+.intro-text h1 {
 	font-size: 40px;
 	letter-spacing: 1.2px;
 	word-spacing: 1.2px;
