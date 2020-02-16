@@ -127,21 +127,24 @@ header .active {
 }
 
 footer .services,
-footer .contact-info {
+footer .contact-info,
+footer .contact-form {
 	display: inline-block;
-	margin-left: 140px;
-	width: 33%;
+	margin-left: 1.5%;
+	width: 30%;
 }
-
+footer .contact-form {
+	margin-bottom: 30px;
+	padding: 0;
+}
 footer .contact-form input {
-	margin-left: 140px;
-	width: 33%;
+	margin: 10px 10px;
+	margin-bottom: 20px;
+	width: 60%;
 }
-
 footer .contact-form button {
-	margin-left: 20px;
+	margin-left: 15px;
 }
-
 footer .copyright {
 	text-align: center;
 }
