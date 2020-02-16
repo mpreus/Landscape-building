@@ -191,7 +191,6 @@ footer .contact-form button:hover {
 	box-shadow: 2px 2px 12px #ccc;
 }
 
-
 @media screen and (min-width: 750px) and (max-width: 989px) {
 	header #logo {
 		display: inline-block;
@@ -248,3 +247,59 @@ footer .contact-form button:hover {
 		margin-left: 20px;
 	} 
 }
+
+@media screen and (min-width: 990px) {
+	header #logo {
+		display: inline-block;
+		padding: 12px;
+		padding-bottom: 20px;
+		width: 40%;
+	}
+	header nav {
+		display: inline-block;
+		margin-left: 15%;
+		width: 40%;
+	}
+	.services-container {
+		max-width: 990px;
+		margin: auto;
+	}
+	.services-container:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	.service {
+		float: left;
+		margin: 15px;
+		width: 30%;
+	}
+
+	footer .services,
+	footer .contact-info,
+	footer .contact-form {
+		display: inline-block;
+		margin-left: 1%;
+		width: 30%;
+	}
+	footer .contact-form {
+		margin-bottom: 30px;
+		padding: 0;
+	}
+	footer .contact-form input {
+		margin-bottom: 20px;
+		width: 60%;
+	}
+	footer .contact-form button {
+		margin-left: 20px;
+	}
+	footer .copyright {
+		text-align: center;
+	}
+	
+}
+
+
+
+
+
