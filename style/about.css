@@ -86,7 +86,7 @@ header .active {
 }
 
 .call-to-action a {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	display: inline-block;
 	margin: 20px 0 50px;
@@ -121,13 +121,13 @@ header .active {
 }
 
 .event-date {
-	color: #55c18f;
+	color: #41916c/*#55c18f*/;
 	font-size: 1.2em;
 	font-weight: bold;
 }
 
 .event-title {
-	color: #55c18f;
+	color: #41916c/*#55c18f*/;
 	font-size: 1.3em;
 	font-weight: bold;
 }
@@ -182,7 +182,7 @@ header .active {
 }
 
 .faq .q {
-	color: #55c18f;
+	color: #41916c/*#55c18f*/;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -236,7 +236,7 @@ footer .contact-form input {
 }
 
 footer .contact-form button {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	display: inline-block;
 	margin: 10px 0;
@@ -252,7 +252,6 @@ footer .contact-form button:hover {
 
 /* style for tablets */
 @media screen and (min-width: 750px) and (max-width: 989px) {
-	
 	header #logo {
 		display: inline-block;
 		padding: 12px;
@@ -269,6 +268,9 @@ footer .contact-form button:hover {
 		justify-content: space-around;
 	}
 	.event {
+		background-color: #eee;
+		box-shadow: 0 0 10px 10px #ccc;
+		padding: 10px;
 		width: 46%;
 	}
 	.member,
@@ -337,6 +339,8 @@ footer .contact-form button:hover {
 		justify-content: space-around;
 	}
 	.event {
+		background-color: #eee;
+		box-shadow: 0 0 10px 10px #ccc;
 		display: block;
 		padding: 20px;
 		width: 480px;
@@ -383,7 +387,7 @@ footer .contact-form button:hover {
 	footer .contact-info,
 	footer .contact-form {
 		display: inline-block;
-		margin-left: 1%;
+		margin-left: 1.5%;
 		width: 30%;
 	}
 	footer .contact-form {
@@ -395,7 +399,7 @@ footer .contact-form button:hover {
 		width: 60%;
 	}
 	footer .contact-form button {
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 	footer .copyright {
 		text-align: center;

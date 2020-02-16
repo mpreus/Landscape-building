@@ -12,6 +12,7 @@ body {
 	font-size: 18px;
 }
 
+
 header {
 	background: #fff;
 }
@@ -31,8 +32,8 @@ header #logo {
 header nav li {
 	text-align: center;
 	display: inline-block;
-	transition-duration: 7s;
-	width: 140px;
+	transition-duration: .7s;
+	width: 120px;
 }
 
 header nav li:hover {
@@ -69,7 +70,7 @@ header .active {
 }
 
 .intro-text .call-to-action a {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	display: inline-block;
 	margin: 20px 0 50px;
@@ -83,7 +84,7 @@ header .active {
 }
 
 #welcome {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	padding-bottom: 50px;
 }
@@ -163,7 +164,7 @@ header .active {
 
 #blog .call-to-action a,
 .article-button a {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	display: inline-block;
 	padding: 15px;
@@ -289,7 +290,7 @@ footer .contact-form input {
 }
 
 footer .contact-form button {
-	background-color: #55c18f;
+	background-color: #41916c/*#55c18f*/;
 	color: #fff;
 	display: inline-block;
 	margin: 10px 0;
@@ -305,4 +306,3 @@ footer .contact-form button:hover {
 footer .copyright {
 	text-align: center;
 }
-
