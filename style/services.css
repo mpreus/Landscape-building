@@ -260,6 +260,12 @@ footer .contact-form button:hover {
 		margin-left: 15%;
 		width: 40%;
 	}
+
+	#showcase h1 {
+	    font-size: 40px;
+	    letter-spacing: 1.2px;
+	    word-spacing: 1.2px;
+	}
 	.services-container {
 		max-width: 990px;
 		margin: auto;
@@ -297,8 +303,3 @@ footer .contact-form button:hover {
 		text-align: center;
 	}
 }
-
-
-
-
-

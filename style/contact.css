@@ -1,3 +1,283 @@
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #ccc;
+	background: #edeff0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background: #fff;
+}
+header a {
+	color: #000;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+header #logo {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+}
+header nav li {
+	text-align: center;
+	display: inline-block;
+	transition-duration: .7s;
+	width: 120px;
+}
+header nav li:hover {
+	background-color: #ddd;
+}
+header .active {
+	background-color: #ddd;
+}
+
+#showcase {
+	background-image: url("../img/garden.jpg");
+	background-size: cover;
+	height: 240px;
+	position: relative;
+}
+
+#showcase .text {
+	background-color: rgba(50, 50, 50, .6);
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+
+#showcase .text h1 {
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+#get-in-touch {
+	background-color: #fff;
+}
+#get-in-touch h2 {
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+#get-in-touch p {
+	font-style: italic;
+	padding: 10px;
+	text-align: center;
+}
+#get-in-touch form {
+	margin: auto;
+	max-width: 500px;
+	padding: 10px;
+}
+#get-in-touch form input,
+#get-in-touch form textarea {
+	background-color: #edeff0;
+	border: 1px solid #ccc;
+	margin: 6px 0;
+	padding: 10px;
+	width: 100%;
+}
+#get-in-touch form input:hover,
+#get-in-touch form input:focus  {
+	background-color: #fff;
+	border: 1px solid #41916c;
+	transition-duration: .7s;
+}
+#get-in-touch form textarea:hover {
+	background-color: #fff;
+	border: 1px solid #41916c;
+	transition-duration: .7s;
+}
+.call-to-action {
+	background-color: #41916c;
+	color: #fff;
+	display: inline-block;
+	margin: 20px 0;
+	padding: 15px;
+	text-align: center;
+	transition-duration: .7s;
+}
+.call-to-action:hover {
+	box-shadow: 2px 2px 12px #333;
+}
+
+#map {
+	margin: 0 auto;
+	width: 600px;
+}
+iframe {
+	width: 600px;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+
+footer .services {
+	margin-bottom: 20px;
+}
+
+footer .services ul {
+	list-style-type: none;
+}
+
+footer .services li {
+	padding: 5px;
+}
+
+footer .services h5 {
+	font-size: 1.2em;
+	padding: 15px 0;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer .contact-info p {
+	padding: 10px 0;
+}
+
+footer .contact-form {
+	padding: 20px 0;
+}
+
+footer .contact-form input {
+	margin: 10px 0;
+	padding: 15px;
+	width: 100%;
+}
+
+footer .contact-form button {
+	background-color: #55c18f;
+	color: #fff;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 15px;
+	text-decoration: none;
+	transition-duration: .3s;
+}
+
+footer .contact-form button:hover {
+	box-shadow: 2px 2px 12px #ccc;
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+	header #logo {
+		display: inline-block;
+		padding: 12px;
+		width: 30%;
+	}
+	header nav {
+		display: inline-block;
+		width: 60%;
+	}
+	
+	#map {
+		margin: 0 auto;
+		width: 800px;
+	}
+	iframe {
+		width: 800px;
+	}
+
+
+	footer .services,
+	footer .contact-info {
+		display: inline-block;
+		width: 46%;
+	}
+	footer .contact-form input {
+		width: 70%;
+	}
+
+	footer .contact-form button {
+		margin-left: 20px;
+	} 
+}
+
+@media screen and (min-width: 990px) {
+	header #logo {
+		display: inline-block;
+		padding: 12px;
+		padding-bottom: 20px;
+		width: 40%;
+	}
+	header nav {
+		display: inline-block;
+		margin-left: 15%;
+		width: 40%;
+	}
+
+	#showcase h1 {
+	    font-size: 40px;
+	    letter-spacing: 1.2px;
+	    word-spacing: 1.2px;
+	}
+
+	#get-in-touch h2 {
+		padding: 20px;
+		padding-top: 50px;
+		text-align: center;
+	}
+	#get-in-touch p {
+		font-style: italic;
+		padding: 20px;
+	}
+	#get-in-touch form {
+		margin: auto;
+		max-width: 800px;
+		padding: 20px;
+	}
+	#get-in-touch form input,
+	#get-in-touch form textarea {
+		background-color: #edeff0;
+		border: 1px solid #ccc;
+		margin: 10px 18%;
+		padding: 10px;
+		width: 60%;
+	}
+	.call-to-action {
+		margin: 20px 40%;
+		padding: 15px;
+		text-align: center;
+		transition-duration: .7s;
+	}
+	#map {
+		margin: 0 auto;
+		width: 900px;
+	}
+	iframe {
+		width: 900px;
+	}
+	
+	footer .services,
+	footer .contact-info,
+	footer .contact-form {
+		display: inline-block;
+		margin-left: 1.5%;
+		width: 30%;
+	}
+	footer .contact-form {
+		margin-bottom: 30px;
+		padding: 0;
+	}
+	footer .contact-form input {
+		margin-bottom: 20px;
+		width: 60%;
+	}
+	footer .contact-form button {
+		margin-left: 20px;
+	}
+	footer .copyright {
+		text-align: center;
+	}
 }
